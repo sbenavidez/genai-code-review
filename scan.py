@@ -18,7 +18,7 @@ def scan_dynamodb_table(table_name, filter_expression=None, expression_values=No
     dynamodb = boto3.resource('dynamodb')
 
     try:
-        # Reference the DynamoDB tabless
+        # Reference the DynamoDB tablessdd
         table = dynamodb.Table(table_name)
 
         # Prepare scan arguments

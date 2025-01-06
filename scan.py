@@ -6,7 +6,7 @@ def scan_dynamodb_table(table_name, filter_expression=None, expression_values=No
     Scans a DynamoDB table and retrieves items.
 
     Parameters:
-    - table_name (str): The name of the DynamoDB table to scan.
+    - table_name (str): The name of the DynamoDB table to scan....
     - filter_expression (str, optional): A condition expression to filter items.
     - expression_values (dict, optional): A dictionary of values for placeholders in the filter expression.
 

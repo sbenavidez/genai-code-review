@@ -3,7 +3,7 @@ from botocore.exceptions import ClientError
 
 def scan_dynamodb_table(table_name, filter_expression=None, expression_values=None):
     """
-    Scans a DynamoDB table and retrieves items..
+    Scans a DynamoDB table and retrieves items.
 
     Parameters:
     - table_name (str): The name of the DynamoDB table to scan.
